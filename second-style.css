@@ -1,0 +1,152 @@
+body{
+    margin-left: 30px;
+    background-color: rgb(235, 246, 209);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    margin-right: 0px;
+    
+}
+h1{
+    text-align: left;
+    font-size: 60px;
+    color: rgb(9, 9, 75);
+    margin-bottom:10px
+}
+h2{
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(235, 246, 209);
+    margin-right: 20px;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background: rgb(3, 3, 47);
+    border-radius: 10px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-list li {
+    margin-right: 10px;
+    align-items: center;
+}
+.nav-list li:last-child {
+    margin-right: 0;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(235, 246, 209);
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+    font-size: 20px;
+}
+.nav-list li a:hover {
+    color: white;
+} 
+hr{
+    border: 3px solid rgb(9, 9, 75);
+    border-radius: 10px;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+h3{
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.szöveg{
+    background-color: rgb(215, 230, 235);
+    height: auto;
+    border-radius: 20px;
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    height:800px
+    
+}
+
+.text{
+    position: relative;
+    left: 20px;
+    margin-right: 50px;
+}
+.kép{
+    width: 400px;
+    height: auto;
+}
+.Fejlesztő{
+    text-decoration: none;
+    color: rgb(235, 246, 209);
+}
+
+
+article{
+    
+    background-color: rgb(124, 155, 202);
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    transition: 0.3s;
+    color: rgb(9, 9, 75);
+}
+article:hover{
+    background-color: rgb(136, 171, 222);
+    transform: scale(1.03);
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    color: rgb(3, 3, 47);
+}
+.mini{
+    height: 150px;
+    /* width: 500px; */
+    width: 33rem;
+}
+
+.kicsi{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.pici{
+    text-align: center;
+    width: 450px;
+    position: relative;
+    left: 33px;
+    font-size: 15px;
+}
+
+.link{
+    text-decoration: none;
+}
+.cím{
+    position: relative;
+    top: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+
+.Fejlesztő{
+    text-decoration: none;
+    color: rgb(235, 246, 209);
+}
+footer{
+    
+    text-align: center;
+    background-color:rgb(3, 3, 47);
+    background-blend-mode: darken;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
