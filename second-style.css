@@ -1,9 +1,14 @@
+*{
+    margin-right:  0px;
+}
+
+
 body{
     margin-left: 30px;
     background-color: rgb(235, 246, 209);
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    margin-right: 0px;
+    margin-right: 8px;
     
 }
 h1{
@@ -108,7 +113,7 @@ article:hover{
 .mini{
     height: 150px;
     /* width: 500px; */
-    width: 33rem;
+    width: 30rem;
 }
 
 .kicsi{
@@ -116,6 +121,7 @@ article:hover{
     font-size: 25px;
     margin-top: 15px;
     margin-bottom: 5px;
+    right: 15px
 }
 .pici{
     text-align: center;
