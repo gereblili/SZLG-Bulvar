@@ -38,7 +38,7 @@ h2{
     list-style: none;
 }
 .nav-list li {
-    margin-right: 10px;
+    margin-right: 20px;
     align-items: center;
 }
 .nav-list li:last-child {
@@ -121,7 +121,7 @@ article:hover{
     font-size: 25px;
     margin-top: 15px;
     margin-bottom: 5px;
-    right: 15px
+    right: 15px;
 }
 .pici{
     text-align: center;
